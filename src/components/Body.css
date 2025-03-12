@@ -8,3 +8,15 @@
   border-bottom-right-radius: 10px;
   background-color: #CA8BFE;
 }
+.body .tasks {
+  overflow: auto; /* Allows scrolling */
+  scrollbar-width: none; /* Hides scrollbar in Firefox */
+}
+
+.body .tasks::-webkit-scrollbar {
+  display: none; /* Hides scrollbar in Chrome, Edge, and Safari */
+}
+.body .tasks {
+  overflow: auto;
+  scrollbar-width: none; /* Hides scrollbar */
+}
